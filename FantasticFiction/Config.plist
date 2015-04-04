@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>Actions</key>
+		<array>
+			<dict>
+				<key>Image File</key>
+				<string>FantasticFiction.png</string>
+				<key>Regular Expression</key>
+				<string>(?s)^.{1,300}$</string>
+				<key>Title</key>
+				<string>FantasticFiction</string>
+				<key>URL</key>
+				<string>http://www.fantasticfiction.co.uk/search/?searchfor={popclip option searchby}&amp;keywords={popclip text}</string>
+			</dict>
+		</array>
+		<key>Extension Description</key>
+		<string>Search for books on Fantastic Fiction.</string>
+		<key>Extension Identifier</key>
+		<string>com.tgo.popclip.extension.fantasticfiction</string>
+		<key>Extension Image File</key>
+		<string>FantasticFiction.png</string>
+		<key>Extension Name</key>
+		<string>FantasticFiction</string>
+		<key>Options</key>
+		<array>
+			<dict>
+				<key>Option Identifier</key>
+				<string>searchby</string>
+				<key>Option Label</key>
+				<dict>
+					<key>en</key>
+					<string>Search by</string>
+				</dict>
+				<key>Option Type</key>
+				<string>multiple</string>
+				<key>Option Values</key>
+				<array>
+					<string>author</string>
+					<string>book</string>
+					<string>isbn</string>
+				</array>
+			</dict>
+		</array>
+	</dict>
+</plist>
+
+

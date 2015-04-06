@@ -8,7 +8,7 @@
 				<key>Image File</key>
 				<string>FantasticFiction.png</string>
 				<key>Regular Expression</key>
-				<string>(?s)^.{1,300}$</string>
+				<string>(?s)^([a-zA-Z][a-zA-Z -_]{1,300}|(978|979)?-?([0-9-]{9,12})([0-9Xx]))$</string>
 				<key>Title</key>
 				<string>FantasticFiction</string>
 				<key>URL</key>

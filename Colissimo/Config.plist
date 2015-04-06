@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>Actions</key>
+		<array>
+			<dict>
+				<key>Image File</key>
+				<string>Colissimo.png</string>
+				<key>Regular Expression</key>
+				<string>((8[A-Z]|[C|E][A-Z])?[0-9]{9,11}([A-Z]{2})?)</string>
+				<key>Title</key>
+				<string>Colissimo</string>
+				<key>URL</key>
+				<string>http://www.colissimo.fr/portail_colissimo/suivre.do?language={popclip option language}&amp;colispart={popclip text}</string>
+			</dict>
+		</array>
+		<key>Extension Description</key>
+		<string>Track deliveries done with Colissimo by La Poste.</string>
+		<key>Extension Identifier</key>
+		<string>com.tgo.popclip.extension.colissimo</string>
+		<key>Extension Image File</key>
+		<string>Colissimo.png</string>
+		<key>Extension Name</key>
+		<string>Colissimo</string>
+		<key>Options</key>
+		<array>
+			<dict>
+				<key>Option Identifier</key>
+				<string>language</string>
+				<key>Option Label</key>
+				<dict>
+					<key>en</key>
+					<string>Choose your prefered language</string>
+				</dict>
+				<key>Option Type</key>
+				<string>multiple</string>
+				<key>Option Values</key>
+				<array>
+					<string>fr_FR</string>
+					<string>en_GB</string>
+					<string>de_DE</string>
+					<string>nl_NL</string>
+					<string>it_IT</string>
+					<string>es_ES</string>
+				</array>
+			</dict>
+		</array>
+	</dict>
+</plist>
+
+

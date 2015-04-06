@@ -8,7 +8,7 @@
 				<key>Image File</key>
 				<string>Colissimo.png</string>
 				<key>Regular Expression</key>
-				<string>((8[A-Z]|[C|E][A-Z])?[0-9]{9,11}([A-Z]{2})?)</string>
+				<string>^((8[A-Z]|[C|E][A-Z])?[0-9]{9,11}([A-Z]{2})?)$</string>
 				<key>Title</key>
 				<string>Colissimo</string>
 				<key>URL</key>

@@ -24,6 +24,11 @@ I couldn't find full specifications for the allowed format.  I found some input 
 
 The regexp implementing this is quite lax. Let me know if you need/want stricter validation (but then it will have to be scripted) or if you find a valid number I do not support.  As it is, it works for me.
 
+### Colis Privé
+Track your parcels deliveries when sent through [Colis Privé](https://www.colisprive.fr/).
+
+No specification found but the tracking number looks to be a sequence of 17 digits.
+
 ## Development
 
 In case you want to build the extensions yourself, simply clone and run `./build.sh`.  This will create a `build` directory and a `.popclipextz` file for each extension.

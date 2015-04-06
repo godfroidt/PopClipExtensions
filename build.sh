@@ -1,7 +1,7 @@
 #!/bin/bash -u
 
 # space delimited list of extensions to build
-EXTS="FantasticFiction Colissimo"
+EXTS="FantasticFiction Colissimo ColisPrive"
 
 # setup builddir. Careful, it silently erase the
 # existing build directory if any. I mean it that way.

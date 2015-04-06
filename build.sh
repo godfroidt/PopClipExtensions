@@ -10,7 +10,7 @@ BUILDDIR="build"
 mkdir -p "$BUILDDIR"
 
 # for each extension
-for EXT in "$EXTS"
+for EXT in $EXTS
 do
 	# make sure it exists
 	[ ! -d "$EXT" ] && {

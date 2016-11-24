@@ -1,6 +1,7 @@
 #!groovy
 
 node(){
+  archiveArtifacts artifacts: '*.popclipextz', onlyIfSuccessful: true
   stage('hello'){
     echo "hello"
   }

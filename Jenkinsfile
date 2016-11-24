@@ -14,9 +14,7 @@ node(){
     stage('build2'){
       checkout scm
       sh './build.sh'
-    }
-    stage('archive'){
-      archiveArtifacts artifacts: '*.popclipextz', onlyIfSuccessful: true
+      archiveArtifacts artifacts: '*/*.popclipextz', onlyIfSuccessful: true
     }
   }
 }

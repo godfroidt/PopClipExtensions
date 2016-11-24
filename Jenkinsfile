@@ -10,4 +10,8 @@ node(){
     sh 'pwd'
     sh returnStdout: true, script: 'env; ls -l'
   }
+  stage('build2'){
+    checkout scm
+    sh './build.sh'
+  }
 }

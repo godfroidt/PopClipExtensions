@@ -8,6 +8,6 @@ node(){
     pwd
     echo "me too"
     sh 'pwd'
-    sh 'env; ls -l'
+    sh returnStdout: true, script: 'env; ls -l'
   }
 }

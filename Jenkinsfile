@@ -1,7 +1,6 @@
 #!groovy
 
 node(){
-  archiveArtifacts artifacts: '*.popclipextz', onlyIfSuccessful: true
   stage('hello'){
     echo "hello"
   }
@@ -15,6 +14,9 @@ node(){
     stage('build2'){
       checkout scm
       sh './build.sh'
+    }
+    stage('archive'){
+      archiveArtifacts artifacts: '*.popclipextz', onlyIfSuccessful: true
     }
   }
 }

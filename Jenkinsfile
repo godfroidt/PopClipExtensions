@@ -5,6 +5,7 @@ node(){
     echo "hello"
   }
   stage('build'){
-    sh './build.sh'
+    pwd
+    sh 'build.sh'
   }
 }

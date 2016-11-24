@@ -8,5 +8,6 @@ node(){
     pwd
     echo "me too"
     sh 'pwd'
+    sh 'env'
   }
 }

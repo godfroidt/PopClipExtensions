@@ -7,6 +7,6 @@ node(){
   stage('build'){
     pwd
     echo "me too"
-    sh 'build.sh'
+    sh 'pwd'
   }
 }

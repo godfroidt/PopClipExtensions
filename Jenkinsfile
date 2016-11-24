@@ -11,7 +11,6 @@ node(){
       sh 'pwd'
       sh returnStdout: true, script: 'env; ls -l'
     }
-  }, para2: {
     stage('build2'){
       checkout scm
       sh './build.sh'

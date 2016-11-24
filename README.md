@@ -6,7 +6,7 @@ Of course, you should go and have a look at the official [PopClip Extensions pag
 ## Installation
 Before you can install any extension, you need to install [PopClip](https://pilotmoon.com/popclip/).
 
-Once PopClip is installed, download the extension you want from the Release page and double-click on the file.  Since these extensions are not signed, you will be prompted to accept them. 
+Once PopClip is installed, download the extension you want from the Release page and double-click on the file.  Since these extensions are not signed, you will be prompted to accept them.
 
 ### Fantastic Fiction
 Search the [Fantastic Fiction](http://www.fantasticfiction.co.uk/) site by author, book or isbn.
